@@ -13,11 +13,14 @@ export default function EmailSection() {
       id="contact"
     >
       <div className=" flex flex-col">
-        <h6 className="font-semibold text-4xl text-[#fff]">let's connect</h6>
+        <h6 className="font-semibold text-4xl text-[#fff]">
+          let&apos;s connect
+        </h6>
         <p className="mt-4 text-[#ccc]">
-          I'm currently looking for new opportunities, my inbox is always open.
+          I&apos;m currently looking for new opportunities, my inbox is always
+          open.
         </p>
-        <p className="text-[#ccc]">I'll try my best for you!</p>
+        <p className="text-[#ccc]">I&apos;ll try my best for you!</p>
         <div className="grid md:grid-cols-12  lg:flex lg:justify-between flex-col md:flex-row mt-5">
           <Link
             href="https://github.com/pegahTavakoli17"

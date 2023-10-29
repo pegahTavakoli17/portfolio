@@ -66,6 +66,7 @@ export default function AboutMeSection() {
             width={500}
             height={500}
             className="hidden sm:block"
+            alt="about image"
           ></Image>
         </div>
         <div className="sm:absolute flex flex-col md:pl-6 md:ml-5 top-5  sm:left-1/2 ">

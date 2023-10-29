@@ -25,7 +25,7 @@ export default function HeroSection() {
             <p className="mt-8 mb-4 text-lg md:text-left text-center text-white lg:text-xl">
               fueled by boundless curiosity and a passion for learning. I
               believe in the power of embracing challenges and pushing the
-              boundaries of my comfort zone, as it's where growth and
+              boundaries of my comfort zone, as it&apos;s where growth and
               extraordinary experiences thrive.
             </p>
           </div>
