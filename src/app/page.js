@@ -3,7 +3,7 @@ import HeroSection from "./components/HeroSection";
 import NavBar from "./components/NavBar";
 import Achievements from "./components/Achievements";
 import Projects from "./components/Projects";
-import EmailSection from "./components/EmailSection";
+import ContactSection from "./components/ContactSection";
 
 export default function Home() {
   return (
@@ -12,12 +12,12 @@ export default function Home() {
         <NavBar />
       </div>
 
-      <main className=" bg-[#121212] flex flex-col  justify-between min-h-screen lg:p-20 p-10 pb-20 sm:pt-0 pt-8">
+      <main className=" bg-[#121212] flex flex-col  min-h-screen lg:p-20 p-10 pb-20 sm:pt-0 pt-8">
         <HeroSection />
         <Achievements />
         <AboutMeSection />
         <Projects />
-        <EmailSection />
+        <ContactSection />
       </main>
     </div>
   );

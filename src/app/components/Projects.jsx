@@ -41,7 +41,7 @@ export default function Projects() {
   ];
   return (
     <div id="projects">
-      <h1 className="text-5xl font-bold text-center text-white mt-14 sm:mt-0">
+      <h1 className="text-5xl font-bold text-center text-white lg:mt-14 lg:pt-8 md:mt-0 md:pt-0 ">
         my projects
       </h1>
 

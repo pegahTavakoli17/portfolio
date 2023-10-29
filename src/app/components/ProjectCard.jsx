@@ -4,14 +4,14 @@ import { CodeBracketIcon } from "@heroicons/react/24/solid";
 
 export default function ProjectCard({ image, title, technology, gitUrl }) {
   return (
-    <div className=" w-[300px] lg:w-[450px] lg:h-[450px] md:h-[400px] h-[350px] rounded-2xl border border-white mt-4 sm:mt-0 flex flex-col items-center ">
+    <div className=" w-[280px] lg:w-[350px] lg:h-[350px] md:h-[400px] h-[350px] rounded-2xl border border-white mt-4 sm:mt-0 flex flex-col items-center ">
       <div
         style={{
           background: `url(${image})`,
           backgroundSize: "cover",
           backgroundPositionX: "center",
         }}
-        className="text-center rounded-t-2xl h-[75%] min-h-[224px] md:h-[244px] lg:h-[350px] lg:w-[447px] w-[298px] bg-no-repeat px-2 group relative"
+        className="text-center rounded-t-2xl h-[70%] min-h-[224px] md:h-[244px] lg:h-[300px] lg:w-[347px] w-[278px] bg-no-repeat px-2 group relative"
       >
         <div className="hidden justify-center items-center overlay w-full h-full absolute top-0 left-0 group-hover:flex group-hover:bg-opacity-80 bg-opacity-0 bg-[#181818]">
           <Link
@@ -23,10 +23,10 @@ export default function ProjectCard({ image, title, technology, gitUrl }) {
         </div>
       </div>
 
-      <h1 className="px-4 pb-4 mt-3 text-3xl text-center text-white">
+      <h1 className="px-4 pb-4 mt-1 text-3xl text-center text-white">
         {title}
       </h1>
-      <span className="px-4 pb-4 mx-auto text-center text-white">
+      <span className="px-4 pb-2 mx-auto text-center text-white">
         {technology}
       </span>
     </div>
