@@ -18,6 +18,7 @@ export default function AboutMeSection() {
         <ul className="pl-2 text-white list-disc">
           <li>JavaScript</li>
           <li>React</li>
+          <li>Redux</li>
           <li>Next</li>
           <li>MUI</li>
           <li>Vue</li>
@@ -46,7 +47,9 @@ export default function AboutMeSection() {
       id: "experiences",
       content: (
         <ul className="pl-2 text-white list-disc">
-          <li>front-end developer at Sarmad business services (1 year)</li>
+          <li>
+            front-end developer at Sarmad business services (1 year & 2 months)
+          </li>
           <li>product designer and tester at Mohaymen ICT (4 months)</li>
           <li>Administrative Officer at Kanoon Ghalamchi (5 years)</li>
         </ul>
@@ -59,7 +62,7 @@ export default function AboutMeSection() {
       id="about"
       className="relative lg:min-h-screen min-h-[750px] w-full md:min-w-[280px] "
     >
-      <div className="relative flex items-center  py-8 md:grid md:grid-cols-12 sm:py-16 ">
+      <div className="relative flex items-center py-8 md:grid md:grid-cols-12 sm:py-16 ">
         <div className="absolute top-5 md:col-span-6 md:w-[350px] md:h-[350px] lg:w-[500px] lg:w-[500px]">
           <Image
             src={"/about-image.png"}
@@ -69,8 +72,8 @@ export default function AboutMeSection() {
             alt="about image"
           ></Image>
         </div>
-        <div className="sm:absolute flex flex-col md:pl-6 md:ml-5 top-5  sm:left-1/2 ">
-          <h1 className="text-5xl font-bold text-white text-left ">About me</h1>
+        <div className="flex flex-col sm:absolute md:pl-6 md:ml-5 top-5 sm:left-1/2 ">
+          <h1 className="text-5xl font-bold text-left text-white ">About me</h1>
           <p className="mt-3 text-white lg:text-lg text-left w-[95%]">
             I am a front-end developer with a passion for creating interactive
             and responsive web applications. I have experience working with

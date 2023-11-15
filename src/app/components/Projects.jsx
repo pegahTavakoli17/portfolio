@@ -16,13 +16,15 @@ export default function Projects() {
       technology: "Html, Css, JavaScript, Tailwind",
       image: "/music.png",
       gitUrl: "https://github.com/pegahTavakoli17/music-player",
+      webUrl: "https://pegahtavakoli17.github.io/music-player/",
     },
     {
       id: 2,
       title: "travell",
-      technology: "Html, Css, JavaScript, React, Bootstrap, mui",
+      technology: "Html, Css, JavaScript, React, Bootstrap, MUI",
       image: "/travell.png",
-      gitUrl: "/",
+      gitUrl: "https://github.com/pegahTavakoli17/travel",
+      webUrl: "https://travel-six-eosin.vercel.app/",
     },
     {
       id: 3,
@@ -30,6 +32,7 @@ export default function Projects() {
       technology: "Html, Css, Bootstrap",
       image: "/dove.png",
       gitUrl: "https://github.com/pegahTavakoli17/dove",
+      webUrl: "https://pegahtavakoli17.github.io/dove/",
     },
     {
       id: 4,
@@ -37,6 +40,15 @@ export default function Projects() {
       technology: "Html, Css, JavaScript, Vue, Vuetify",
       image: "/gym.png",
       gitUrl: "https://github.com/pegahTavakoli17/onlineGym",
+      webUrl: "",
+    },
+    {
+      id: 5,
+      title: "online shop",
+      technology: "Html, Css, JavaScript, React, Redux, MUI, Bootstrap, vite",
+      image: "/onlineShop.png",
+      gitUrl: "https://github.com/pegahTavakoli17/online-shop",
+      webUrl: "https://online-shop-nine-wine.vercel.app/",
     },
   ];
   return (
@@ -59,12 +71,7 @@ export default function Projects() {
               animate={isInView ? "animate" : "initial"}
               transition={{ duration: 0.5, delay: index * 0.4 }}
             >
-              <ProjectCard
-                image={project.image}
-                technology={project.technology}
-                title={project.title}
-                gitUrl={project.gitUrl}
-              />
+              <ProjectCard project={project} />
             </motion.div>
           );
         })}

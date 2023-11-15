@@ -41,7 +41,6 @@ export default function NavBar() {
         </div>
         {navbarOpen ? <MenuOverlay navLinks={navLinks} /> : null}
       </div>
-
       <div
         className="hidden md:block fixed top-0 right-0 left-0 z-10 bg-[#121212]  "
         style={{ borderBottom: "1px solid #ADB7BE" }}
