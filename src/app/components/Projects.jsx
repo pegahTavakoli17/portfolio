@@ -11,6 +11,14 @@ export default function Projects() {
   const isInView = useInView(ref, { once: true });
   const projects = [
     {
+      id: 5,
+      title: "online shop",
+      technology: "Html, Css, JavaScript, React, Redux, MUI, Bootstrap, vite",
+      image: "/onlineShop.png",
+      gitUrl: "https://github.com/pegahTavakoli17/online-shop",
+      webUrl: "https://online-shop-nine-wine.vercel.app/",
+    },
+    {
       id: 1,
       title: "music player",
       technology: "Html, Css, JavaScript, Tailwind",
@@ -41,14 +49,6 @@ export default function Projects() {
       image: "/gym.png",
       gitUrl: "https://github.com/pegahTavakoli17/onlineGym",
       webUrl: "",
-    },
-    {
-      id: 5,
-      title: "online shop",
-      technology: "Html, Css, JavaScript, React, Redux, MUI, Bootstrap, vite",
-      image: "/onlineShop.png",
-      gitUrl: "https://github.com/pegahTavakoli17/online-shop",
-      webUrl: "https://online-shop-nine-wine.vercel.app/",
     },
   ];
   return (

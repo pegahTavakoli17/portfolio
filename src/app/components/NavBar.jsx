@@ -24,7 +24,7 @@ export default function NavBar() {
   return (
     <nav>
       <div className="flex flex-col md:hidden">
-        <div className="flex justify-end   bg-[#121212] ">
+        <div className="flex justify-end ps-2 pr-2  bg-[#121212] w-100 ">
           {navbarOpen ? (
             <div>
               <button onClick={() => setNavbarOpen(!navbarOpen)}>
@@ -32,9 +32,12 @@ export default function NavBar() {
               </button>
             </div>
           ) : (
-            <div>
-              <button onClick={() => setNavbarOpen(!navbarOpen)}>
-                <Bars3Icon className="w-5 h-5 text-white" />
+            <div className="w-100 ">
+              <button
+                onClick={() => setNavbarOpen(!navbarOpen)}
+                className="ms-1 ps-1 w-100"
+              >
+                <Bars3Icon className="w-5 h-5 pl-0 text-white ps-0 ms-1" />
               </button>
             </div>
           )}
