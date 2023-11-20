@@ -64,7 +64,7 @@ export default function Projects() {
         {projects.map((project, index) => {
           return (
             <motion.div
-              className="mx-auto mt-5 text-center lg:col-span-4 md:col-span-6 md:pl-3 md:pr-3"
+              className="mx-auto mt-5 text-center lg:col-span-4 md:col-span-6 md:pl-3 md:pr-3 w-[100%]"
               key={index}
               variants={cardsVariants}
               initial="initial"

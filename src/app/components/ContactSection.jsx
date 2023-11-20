@@ -8,14 +8,11 @@ import TelegramIcon from "@mui/icons-material/Telegram";
 import InstagramIcon from "@mui/icons-material/Instagram";
 export default function EmailSection() {
   return (
-    <section
-      className=" px-10 mt-16 pt-8 md:pb-[50px] lg:pb-[50px] "
-      id="contact"
-    >
+    <section className=" lg:px-5 lg:mt-16 pt-8 md:pb-[50px]" id="contact">
       <div className="flex flex-col ">
-        <h6 className="font-semibold text-4xl text-[#fff]">
+        <h1 className=" text-[#fff] text-4xl lg:text-5xl font-bold text-left">
           let&apos;s connect
-        </h6>
+        </h1>
         <p className="mt-4 text-[#ccc]">
           I&apos;m currently looking for new opportunities, my inbox is always
           open.

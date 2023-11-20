@@ -1,5 +1,5 @@
 "use client";
-import React, { startTransition, useTransition, useState } from "react";
+import React, { useTransition, useState } from "react";
 import Image from "next/image";
 import TabButton from "./TabButton";
 export default function AboutMeSection() {
@@ -62,14 +62,18 @@ export default function AboutMeSection() {
       id="about"
       className="relative lg:min-h-screen min-h-[750px] w-full md:min-w-[280px] "
     >
-      <div className="relative flex items-center py-8 md:grid md:grid-cols-12 sm:py-16 ">
-        <div className="absolute top-5 md:col-span-6 md:w-[350px] md:h-[350px] lg:w-[500px] lg:w-[500px]">
+      <div className="relative grid items-center grid-cols-1 py-8 md:grid-cols-12 sm:py-16 ">
+        <div
+          className="absolute top-5 md:col-span-6 md:w-[350px] md:h-[350px] lg:w-[500px]"
+          style={{ objectFit: "contain" }}
+        >
           <Image
             src={"/about-image.png"}
-            width={500}
-            height={500}
-            className="hidden sm:block"
+            width={350}
+            height={350}
+            className="hidden sm:block md:w-[350px] md:h-[350px] lg:w-[500px] lg:h-[500px]"
             alt="about image"
+            style={{ objectFit: "contain" }}
           ></Image>
         </div>
         <div className="flex flex-col sm:absolute md:pl-6 md:ml-5 top-5 sm:left-1/2 ">
@@ -84,7 +88,10 @@ export default function AboutMeSection() {
           {/* tabs */}
           <div className="flex justify-start w-full p-5 pl-0 text-left">
             {TAB_DATA.map((tab1, index1) => (
-              <div className="p-4 text-purple-500" key={index1}>
+              <div
+                className="p-4 text-purple-500 padding-for-fold "
+                key={index1}
+              >
                 <TabButton
                   active={tab1.id === tab}
                   key={tab1.id}

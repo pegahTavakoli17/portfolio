@@ -5,15 +5,15 @@ import { EyeIcon } from "@heroicons/react/24/solid";
 
 export default function ProjectCard({ project }) {
   return (
-    <div className=" w-[280px] lg:w-[350px] lg:h-[350px] md:h-[400px] h-[350px] rounded-2xl border border-white mt-4 sm:mt-0 flex flex-col items-center ">
+    <div className=" w-[100%] lg:min-w-[350px]  lg:h-[370px] md:h-[400px] h-[420px] rounded-2xl border border-white mt-4 sm:mt-0 flex flex-col items-center ">
       <div
         style={{
           background: `url(${project.image})`,
           backgroundSize: "cover",
           backgroundPositionX: "center",
-          objectFit: "contain",
+          objectPosition: "center",
         }}
-        className="text-center rounded-t-2xl h-[70%] pt-3 min-h-[224px] md:h-[244px] lg:h-[300px] lg:w-[345px] w-[278px] bg-no-repeat px-2 group relative"
+        className="text-center rounded-t-2xl h-[70%] pt-3 min-h-[224px]   w-[100%] bg-no-repeat px-2 group relative"
       >
         <div className="overlay items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500 ">
           <Link
