@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
+import Link from "next/link";
 export default function HeroSection() {
   return (
     <section className="p-0 lg:pb-16 md:mt-16 lg:mt-0">
@@ -38,9 +39,11 @@ export default function HeroSection() {
                 </span>
               </button>
             </a>
-            <button className="w-full px-6 py-3 mt-4 ml-0 text-lg font-bold text-white rounded-full bg-gradient-to-br from-purple-500 to-pink-500 sm:w-fit sm:mt-0 sm:ml-3 place-self-center hover:bg-slate-200">
-              Contact me
-            </button>
+            <Link href={"#contact"}>
+              <button className="w-full px-6 py-3 mt-4 ml-0 text-lg font-bold text-white rounded-full bg-gradient-to-br from-purple-500 to-pink-500 sm:w-fit sm:mt-0 sm:ml-3 place-self-center hover:bg-slate-200">
+                Contact me
+              </button>
+            </Link>
           </div>
         </div>
         <div className="hidden col-span-1 lg:block">&nbsp;</div>

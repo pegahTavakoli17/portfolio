@@ -22,7 +22,7 @@ export default function EmailSection() {
           <Link
             href="https://github.com/pegahTavakoli17"
             target="_blank"
-            className="flex items-center justify-start md:mt-5 md:col-span-4 "
+            className="flex items-center justify-start md:mt-5 md:col-span-3 "
           >
             <GitHubIcon />
             <span className="text-white">pegahTavakoli17</span>
@@ -30,7 +30,7 @@ export default function EmailSection() {
           <Link
             href="https://www.linkedin.com/in/pegah-tavakoli-49664614a"
             target="_blank"
-            className="flex items-center justify-start mt-5 md:col-span-4 "
+            className="flex items-center justify-start mt-5 md:col-span-3 "
           >
             <LinkedInIcon />
             <span className="text-white">pegah Tavakoli</span>
