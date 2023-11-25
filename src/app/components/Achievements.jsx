@@ -6,7 +6,7 @@ export default function Achievements() {
   const achievementRef = useRef(null);
   const [isVisible, setIsVisible] = useState(false);
   const myAchievements = [
-    { title: "years", value: "1", postfix: "" },
+    { title: "year", value: "1", postfix: "" },
     { title: "projects", value: "10", postfix: "+" },
   ];
   useEffect(() => {
