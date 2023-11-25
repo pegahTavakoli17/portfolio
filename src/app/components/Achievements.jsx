@@ -6,10 +6,9 @@ export default function Achievements() {
   const achievementRef = useRef(null);
   const [isVisible, setIsVisible] = useState(false);
   const myAchievements = [
-    { title: "years", value: "6", postfix: "" },
+    { title: "years", value: "1", postfix: "" },
     { title: "projects", value: "10", postfix: "+" },
   ];
-
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
