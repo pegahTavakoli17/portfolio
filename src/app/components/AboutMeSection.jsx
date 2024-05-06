@@ -21,6 +21,7 @@ export default function AboutMeSection() {
           <li>Redux</li>
           <li>Next</li>
           <li>MUI</li>
+          <li>TypeScript</li>
           <li>Vue</li>
           <li>Vuetify</li>
           <li>Css</li>
