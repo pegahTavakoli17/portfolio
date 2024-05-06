@@ -47,10 +47,11 @@ export default function AboutMeSection() {
       id: "experiences",
       content: (
         <ul className="pl-2 text-white list-disc">
+          <li>front-end developer at rah eamen (4 months)</li>
           <li>
-            front-end developer at Sarmad business services (1 year & 2 months)
+            front-end developer at Sarmad business services (1 year & 3 months)
           </li>
-          <li>product designer and tester at Mohaymen ICT (4 months)</li>
+          <li>front-end developer at Mohaymen ICT (4 months)</li>
           <li>Administrative Officer at Kanoon Ghalamchi (5 years)</li>
         </ul>
       ),
