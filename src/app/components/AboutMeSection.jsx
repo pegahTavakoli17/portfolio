@@ -88,7 +88,7 @@ export default function AboutMeSection() {
             team player and excited to work with others to create amazing webs.
           </p>
           {/* tabs */}
-          <div className="flex justify-start w-full p-5 pl-0 text-left">
+          <div className="flex justify-start w-full p-5 pl-0 text-left pb-1">
             {TAB_DATA.map((tab1, index1) => (
               <div
                 className="p-4 text-purple-500 padding-for-fold "
